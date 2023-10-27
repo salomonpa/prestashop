@@ -1,0 +1,104 @@
+.ybc-widget-display-home .ybc-widget-description-white > h3 {
+  text-transform: uppercase;
+}
+.ybc-widget-ybc-custom-5 li.ybc-widget-item:nth-child(3) {
+  border-right: medium none;
+}
+.ybc-widget-display-home .ybc-widget-description {
+  float: left;
+  padding-right: 39%;
+  position: relative;
+  width: 100%;
+}
+#search_block_top .btn.button-search:before, 
+.toogle_search_top:before {
+  color: #FFFFFF;
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .ybc-layout-default .ybc-menu-wrapper {
+      padding: 0;
+      width: 100%;
+    }
+    .ybc-menu > .ybc-menu-item > .ybc-menu-item-link, .ybc-menu > .ybc-menu-item > .ybc-menu-item-no-link {
+      padding: 20px;
+    }
+    #search_block_top #search_query_top,
+    #search_block_top .btn.button-search {
+      height: 40px;
+    }
+    .ybc_myaccout i {
+      font-size: 20px;
+      line-height: 40px;
+    }
+    .ybc_myaccout:hover .dropdown_myaccout {
+      opacity: 1;
+      visibility: visible;
+    }
+    body.ybc-layout-default .header_bottom .custom_block_cart {
+      top: 72px;
+    }
+}
+@media (max-width: 767px){
+    .shopping_cart > a:first-child::before {
+      height: 40px;
+      line-height: 40px;
+      width: 40px;
+    }
+    div .ybc-widget-ybc-custom-5 li.ybc-widget-item:first-child,div .ybc-widget-ybc-custom-5 li.ybc-widget-item {
+      border-left: none;
+      border-right: medium none;
+    }
+    .ybc-widget-display-home .ybc-widget-description {
+      padding: 0 15px;
+    }
+    .shopping_cart > a:first-child span.ajax_cart_quantity {
+      top: 3px;
+    }
+    .shopping_cart > a:first-child {
+      height: 40px;
+      width: 40px;
+      padding: 0 0 0 16px;
+    }
+    .parala_content {
+      opacity: 0.23;
+    }
+    .ybc-widget-ybc-custom-5 .ybc-widget-item {
+      float: left;
+      width: 50%;
+    }
+}
+@media (max-width: 479px){
+    .header_bottom {
+      margin-top: 10px;
+    }
+    #box-tesimonial .avatar {
+      border-radius: 50%;
+      display: inline-block;
+      float: none;
+      height: 160px;
+      margin-right: 0;
+      overflow: hidden;
+      width: 160px;
+    }
+    .content-tesimonial {
+      text-align: center;
+    }
+    #box-tesimonial .slider {
+      text-align: center;
+    }
+    #languages-block-top {
+      margin: 2px 0 0;
+    }
+    #currencies-block-top {
+      margin: 0;
+    }
+    div .main-menu {
+      margin-top: 15px;
+    }
+    body.ybc-layout-default .header_bottom .custom_block_cart {
+      top: 57px;
+    }
+    .ybc-layout-default .nav {
+      border-bottom: 1px solid #DBDBDB;
+    }
+}

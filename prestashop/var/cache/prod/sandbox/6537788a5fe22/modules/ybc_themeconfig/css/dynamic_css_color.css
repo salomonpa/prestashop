@@ -1,0 +1,303 @@
+
+/*no color*/
+body[body_class] .button *,
+body[body_class] .btn *{
+    background: transparent!important;
+}
+
+/**/
+body[body_class]{
+    /*background: [color2]!important;*/
+}
+body[body_class] #toggle-nav .icon-bar, 
+body[body_class]#order-opc .page-heading.step-num span,
+body[body_class] .button-search-menu, 
+body[body_class] .page-heading.step-num > span.number-step,
+body[body_class] .ybc-menu > li > a:before,
+body[body_class] .tab-content .owl-theme .owl-controls .owl-buttons div,
+body[body_class] .btn-default:focus, 
+body[body_class] .btn-default:active, 
+body[body_class] .btn-default.active,
+body[body_class] .ybc-widget-ybc-footer-links li a span:hover i,
+body[body_class] .button-container .functional-buttons,
+body[body_class] .title_alltab_home::before,
+body[body_class].ybc-layout-layout3 .ybc-widget-ybc-custom-2 li.ybc-widget-item i,
+body[body_class] .layout_3 .ajax_cart_quantity,
+body[body_class] ul.step li.step_current::before, 
+body[body_class] ul.step li.step_current::after,
+body[body_class] ul.step li.step_done::before, 
+body[body_class] ul.step li.step_done::after,
+body[body_class] .ui-slider-horizontal .ui-slider-range,
+body[body_class] #layered_block_left .ui-state-default, 
+body[body_class] #layered_block_left .ui-widget-content .ui-state-default, 
+body[body_class] #layered_block_left .ui-widget-header .ui-state-default,
+body[body_class] #footer h4::before,
+body[body_class] .contact_store_information_left i,
+body[body_class] div.uploader span.action,
+body[body_class].ybc-layout-layout3 #ybc-nivo-slider-wrapper .btn.button_nivo,
+body[body_class] li.active > .title_tab_home::before,
+body[body_class] .top-pagination-content ul.pagination li.active > span, 
+body[body_class] .bottom-pagination-content ul.pagination li.active > span,
+body[body_class] #footer .ybc-theme-panel-inner #ybc_tc_float_header li.active,
+body[body_class] .product-box-content .button-container .compare,
+body[body_class] .ybc_custom_float_header.scroll_heading .ajax_cart_quantity,
+body[body_class] .post-details h4.title_block::before,
+body[body_class] .ybc-mm-product-viewmore:hover,
+body[body_class] div.light_square .pp_close::before,
+body[body_class] .new-label,
+body[body_class] .button,
+body[body_class] button,
+body[body_class] .btn,
+body[body_class] .ybc-newsletter-popup .ynp-submit,
+body[body_class].ybc-layout-layout3 .ybc-caption-type .caption-span p a,
+body[body_class].ybc-layout-layout4 .ajax_cart_quantity,
+body[body_class] #footer #newsletter_block_left .form-group .button-small,
+body[body_class] .ybc-layout-layout2 .shopping_cart > a:first-child span.ajax_cart_quantity,
+body[body_class] .ybc-newsletter-home .ynp-submit,
+body[body_class] .ybc-page-home #ybc_gallery_home h4:before,
+body[body_class].ybc-layout-layout3 .title_tab_home::before{
+    background: [color1];
+}
+
+
+body[body_class] .ybc-theme-panel-bg.active,
+body[body_class] .htmlcontent-item-link-wrap .item-title span,
+body[body_class] .title_tab_product li a.selected:after,
+body[body_class] button,
+body[body_class] .btn-default:focus, 
+body[body_class] .btn-default:active, 
+body[body_class] .btn-default.active,
+body[body_class] .footer_bottom,
+body[body_class].ybc-layout-layout3 .ybc-widget-ybc-custom-2 .ybc_links_page_home,
+body[body_class] .ui-slider-horizontal .ui-slider-range,
+body[body_class] .header-container,
+body[body_class] .search_block_top_content,
+body[body_class] #languages-block-top ul,
+body[body_class] #currencies-block-top ul,
+body[body_class] .owl-dot.active span,
+body[body_class] .owl-dot:hover span,
+body[body_class] .button,
+body[body_class] button,
+body[body_class] .btn,
+body[body_class] .ybc-newsletter-popup .ynp-submit,
+body[body_class] .nivo-controlNav a.active,
+body[body_class].ybc-layout-layout3 #ybc-nivo-slider-wrapper .btn.button_nivo{
+    border-color: [color1];
+}
+
+
+body[body_class] #view_scroll_right::before{
+    border-color: transparent transparent [color1];
+}
+body[body_class] .theme-default a.nivo-prevNav::after,
+body[body_class] .product_layout_2 .owl-controls .owl-prev::before,
+body[body_class] .ybc-theme-panel-btn{
+    border-color: transparent transparent transparent [color1];
+}
+body[body_class] .theme-default a.nivo-prevNav:hover::after,
+body[body_class] .product_layout_2 .owl-controls .owl-prev:hover::before,
+body[body_class] .ybc-theme-panel-btn:hover{
+    border-color: transparent transparent transparent [color3];
+}
+body[body_class] .theme-default a.nivo-nextNav::after,
+body[body_class] .product_layout_2 .owl-controls .owl-next::before {
+  border-color: transparent [color1] transparent transparent;
+}
+body[body_class] .theme-default a.nivo-nextNav:hover::after,
+body[body_class] .product_layout_2 .owl-controls .owl-next:hover::before {
+  border-color: transparent [color3] transparent transparent;
+}
+body[body_class] #view_scroll_left::before,
+body[body_class] .header-container::before{
+    border-color: [color1] transparent transparent;
+}
+
+body[body_class]#my-account ul.myaccount-link-list li a i,
+body[body_class] #ybc_tc_layout li.active::before,
+body[body_class] .favourites i,
+body[body_class] .box-info-product a.add_to_compare_product:before,
+body[body_class] .content_sortPagiBar .display li.selected i, 
+body[body_class] .content_sortPagiBar .display_m li.selected i,
+body[body_class] #tab_product_page .nav-tabs > li.active a h3,
+body[body_class] #layer_cart .layer_cart_product .title,
+body[body_class] .fancybox-skin .fancybox-close,
+body[body_class] #layer_cart .cross,
+body[body_class] .search_block_top_close.in_content::before,
+body[body_class] .ybc-newsletter-popup.ynpt8 .ynp-close::before,
+body[body_class] #categories_block_left li a.selected,
+body[body_class].ybc-layout-layout2 .ybc-widget-ybc-custom-5 li.ybc-widget-item i,
+body[body_class] .be-categories > a,
+body[body_class] #uniform-ynp-input-dont-show > span.checked::before,
+body[body_class] .ybc-newsletter-popup .ynp-inner-wrapper h4{
+    color: [color1];
+}
+
+
+/*color 2*/
+body[body_class] ul.product_list .functional-buttons div.compare a:hover:before,
+body[body_class] #footer #newsletter_block_left .form-group .button-small:hover,
+body[body_class] .button-container .functional-buttons:hover,
+body[body_class] ul.pagination li.active > span span,
+body[body_class] .button:hover,
+body[body_class] button:hover,
+body[body_class] .btn:hover,
+body[body_class] #new_comment_tab_btn:hover,
+body[body_class].ybc-layout-layout3 #ybc-nivo-slider-wrapper .btn.button_nivo:hover,
+body[body_class] #search_block_top .search_block_top_fixed.open .button-search:hover{
+    color: [color2];
+}
+
+
+/*color 3- hover*/
+body[body_class] #wishlist_button:hover:before, 
+body[body_class] .functional-buttons div.wishlist a:hover:before,
+body[body_class] .ajax_add_to_cart_button:hover span,
+body[body_class] .favourites i:hover,
+body[body_class] .btn.button-plus:hover, 
+body[body_class] .btn.button-minus:hover,
+body[body_class] .fancybox-skin .fancybox-close:hover,
+body[body_class] #layer_cart .cross:hover,
+body[body_class] .ybc_coppyright > a,
+body[body_class] .be-categories > a,
+body[body_class].ybc-layout-layout4 #social_block li:hover a span i,
+body[body_class].ybc-layout-layout4 .setting > i:hover,
+body[body_class].ybc-layout-layout4 .header_user_info i:hover, 
+body[body_class].ybc-layout-layout4 .shopping_cart > a:first-child:hover::before,
+body[body_class] .shop-phone,
+body[body_class] .caption2 .main_color,
+body[body_class] .breadcrumb,
+body[body_class] .add_to_compare:hover,
+body[body_class] .ajax_add_to_cart_button:hover:before,
+body[body_class] .cart-info .price,
+body[body_class] .our_price_display,
+body[body_class] .price.ajax_block_cart_total,
+body[body_class] .price.product-price,
+body[body_class] #productscategory_list .price,
+body[body_class] #home-page-tabs > li.active a, 
+body[body_class] #home-page-tabs > li a:hover,
+body[body_class] .content-tesimonial p.work,
+body[body_class] .content-tesimonial p::before,
+body[body_class] .content-tesimonial p::after,
+body[body_class] .content-tesimonial > a,
+body[body_class] .product-name:hover, 
+body[body_class] a:hover,
+body[body_class] #tc-reset:hover, 
+body[body_class] #currencies-block-top div.current:hover:after,
+body[body_class] #currencies-block-top div.current:hover,
+body[body_class] #languages-block-top div.current:hover:after,
+body[body_class] #languages-block-top div.current:hover,
+body[body_class] #languages-block-top div.current:hover span,
+body[body_class] .ybc-theme-panel-box.tc-reset > span:hover:before,
+body[body_class] h3.page-product-heading:hover::before,
+body[body_class] .pb-left-column #image-block #view_full_size .span_link:hover::after,
+body[body_class] .footer-container #footer a:hover,
+body[body_class] .theme-default .nivo-directionNav a:hover::before,
+body[body_class] .scroll_top:hover:before,
+body[body_class] .nivo-button:hover,
+body[body_class] #productscategory_list .product-name a:hover,
+body[body_class] .ybc-blog-post-footer .read_more:hover,
+body[body_class] .ybc-menu li:hover > .ybc-menu-item-link,
+body[body_class] .ybc-menu-layout-light .ybc-menu .ybc-menu-item-link:hover > span,
+body[body_class] .ybc-menu-layout-light .ybc-menu .ybc-menu-item-link:hover > span:first-child::before,
+body[body_class] .ybc-menu-layout-light .ybc-menu li:hover > .ybc-menu-item-link > span:first-child::before,
+body[body_class] #footer #social_block ul li a:hover i,
+body[body_class] .owl-buttons .owl-prev:hover::before, 
+body[body_class] .owl-buttons .owl-next:hover::before, 
+body[body_class] .owl-nav .owl-prev:hover::before, 
+body[body_class] .ybc_featuredcat_banner::after, 
+body[body_class] .ybc-blog-posts-home-list-item .ybc_item_img::after, 
+body[body_class] .ybc-widget-display-top-column .ybc-widget-item-content a::after, 
+body[body_class] .ybc-widget-display-home .ybc-widget-item-content > a.ybc_widget_link::after,
+body[body_class] .owl-nav .owl-next:hover::before,
+body[body_class] #ybc-nivo-slider-wrapper .btn.button_nivo:hover,
+body[body_class] .ybc-blog-related-posts-meta-categories > a,
+body[body_class] .be-tag-block .be-tags a,
+body[body_class] .copy_right p span,
+body[body_class] .ybc-widget-ybc-custom-3 .ybc-widget-item > a:after,
+body[body_class] .ybc-theme-panel-box li:hover, 
+body[body_class] .footer-container #footer .ybc-theme-panel-box #ybc_tc_skin li:hover,
+body[body_class].order .cart_navigation .button-exclusive.btn.btn-default:hover, 
+body[body_class].module-bankwire-payment .cart_navigation .button-exclusive.btn.btn-default:hover, 
+body[body_class].order-confirmation .cart_navigation .button-exclusive.btn.btn-default:hover,
+body[body_class] #search_block_top .search_block_top_fixed.open .button-search:hover,
+body[body_class] #search_block_top .btn.button-search:hover,
+body[body_class] .ybc-widget-ybc-custom-5 li.ybc-widget-item:hover i,
+body[body_class] ul.product_list .product-image-container .quick-view:hover:before,
+body[body_class] .search_block_top_close.in_content:hover::before,
+body[body_class] .ybc-newsletter-popup.ynpt8 .ynp-close:hover::before{
+    color: [color3];
+}
+
+body[body_class] ul.product_list .functional-buttons div.compare a:hover:before,
+body[body_class] #footer #newsletter_block_left .form-group .button-small:hover,
+body[body_class] .button-container .functional-buttons:hover,
+body[body_class] ul.pagination li.active > span span,
+body[body_class] .button:hover,
+body[body_class] button:hover,
+body[body_class] .btn:hover,
+body[body_class] #new_comment_tab_btn:hover,
+body[body_class] .blog-paggination .links > b,
+body[body_class].ybc-layout-layout3 #ybc-nivo-slider-wrapper .btn.button_nivo:hover,
+body[body_class] div.light_square .pp_close:hover:before{
+    background-color: [color3];
+    border-color: [color3];
+}
+body[body_class] .ybc-blog-post-footer .read_more:hover,
+body[body_class] #wishlist_button_nopop:hover,
+body[body_class] .box-sharing-button li a:hover,
+body[body_class] #subcategories ul li:hover .subcategory-image a,
+body[body_class] .scroll_top:hover:before,
+body[body_class] .scroll_top:hover:after,
+body[body_class] #ybc-nivo-slider-wrapper .btn.button_nivo:hover,
+body[body_class] .nivo-controlNav a:hover,
+body[body_class] .theme-default .nivo-directionNav a:hover,
+body[body_class] .nivo-button:hover{
+    border-color: [color3];
+}
+body[body_class] .instagram_item::before, 
+body[body_class] .instagram_item_img::before,
+body[body_class] .ybc-widget-item-wrap:hover::before,
+body[body_class] .product-container .tooltip,
+body[body_class] .product-box-content .tooltip,
+body[body_class] .ac_results li:hover, 
+body[body_class] .ybc_shopmsg_alert:before,
+body[body_class] .ybc_blog_skin_default .nivo-caption:before,
+body[body_class] .theme-bar .nivo-directionNav .nivo-nextNav:before,
+body[body_class] .theme-bar .nivo-directionNav .nivo-prevNav:before{
+    background-color: [color1];
+}
+body[body_class] .instagram_item:hover::before, 
+body[body_class] .instagram_item_img:hover::before,
+body[body_class] .ybc-widget-item-wrap:hover::before,
+body[body_class] .ac_results li:hover:before, 
+body[body_class] .ybc_shopmsg_alert:before,
+body[body_class] .ybc_blog_skin_default .nivo-caption:before,
+body[body_class] .theme-bar .nivo-directionNav .nivo-nextNav:hover:before,
+body[body_class] .theme-bar .nivo-directionNav .nivo-prevNav:hover:before{
+    opacity: 0.5;
+}
+body[body_class] .theme-bar .nivo-directionNav .nivo-nextNav:before,
+body[body_class] .theme-bar .nivo-directionNav .nivo-prevNav:before{
+    opacity: 0.3;
+}
+body[body_class] .product-container .tooltip:before,
+body[body_class] .product-box-content .tooltip:before{
+    border-color: transparent transparent transparent [color4]
+}
+
+body[body_class] .sale-label,
+body[body_class] .ybc-menu-item.ybc_sale > .ybc-menu-item-link > span:first-child::after, 
+body[body_class] .ybc-menu-item.ybc_sale > span.ybc-menu-item-no-link:first-child::after{
+    background-color: [color5]
+}
+
+body[body_class] .ybc-menu-item.ybc_new > .ybc-menu-item-link > span:first-child::after, 
+body[body_class] .ybc-menu-item.ybc_new > span.ybc-menu-item-no-link:first-child::after,
+body[body_class] .new-label{
+    background-color: [color6]
+}
+
+body[body_class] .ybc-menu-item.ybc_hot > .ybc-menu-item-link > span:first-child::after, 
+body[body_class] .ybc-menu-item.ybc_hot > span.ybc-menu-item-no-link:first-child::after{
+    background-color: [color7]
+}

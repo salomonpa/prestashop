@@ -1,0 +1,15 @@
+Superadmin:
+
+Identifiant: fsislinebemsse@gmail.com
+Mot de passe: prestashop
+
+Editteur1: ftouang16@outlook.fr
+
+Identifiant: ftouang16@outlook.fr
+
+Mot de passe: prestashop2023
+
+Editeur2:
+
+Identifiant: ftouang@outlook.fr
+Mot de passe: siteweb2023

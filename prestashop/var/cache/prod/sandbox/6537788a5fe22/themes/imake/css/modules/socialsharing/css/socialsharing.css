@@ -1,0 +1,67 @@
+#usefull_link_block.socialsharing_product button {
+  background-color: transparent;
+  border: medium none;
+  float: left;
+  height: 100%;
+  line-height: 34px;
+  margin: 0;
+  padding: 0 10px;
+  text-align: center;
+  text-transform: none;
+  width: 100%;
+  color: #333;
+}
+.socialsharing_product .social-sharing i {
+  float: left;
+  margin-right: 5px;
+  line-height: 30px;
+}
+
+#usefull_link_block.socialsharing_product .social-sharing.btn-facebook i {
+  color: #435f9f; 
+}
+#usefull_link_block.socialsharing_product .social-sharing.btn-facebook:hover {
+  color: white;
+  background-color: #435f9f; 
+}
+#usefull_link_block.socialsharing_product .social-sharing.btn-facebook:hover i {
+    color: white; 
+}
+
+#usefull_link_block.socialsharing_product .social-sharing.btn-twitter i {
+  color: #00aaf0; 
+}
+#usefull_link_block.socialsharing_product .social-sharing.btn-twitter:hover {
+  color: white;
+  background-color: #00aaf0; 
+}
+#usefull_link_block.socialsharing_product .social-sharing.btn-twitter:hover i {
+    color: white; 
+}
+
+#usefull_link_block.socialsharing_product .social-sharing.btn-google-plus i {
+  color: #e04b34; 
+}
+#usefull_link_block.socialsharing_product .social-sharing.btn-google-plus:hover {
+  color: white;
+  background-color: #e04b34; 
+}
+#usefull_link_block.socialsharing_product .social-sharing.btn-google-plus:hover i {
+    color: white; 
+}
+
+#usefull_link_block.socialsharing_product .social-sharing.btn-pinterest i {
+  color: #ce1f21; 
+}
+#usefull_link_block.socialsharing_product .social-sharing.btn-pinterest:hover {
+  color: white;
+  background-color: #ce1f21; 
+}
+#usefull_link_block.socialsharing_product .social-sharing.btn-pinterest:hover i {
+    color: white; 
+}
+@media (max-width: 479px){
+    #usefull_link_block.socialsharing_product button {
+      padding: 0 7px;
+    }
+}

@@ -1,0 +1,207 @@
+.ybc-testimonial-testimonials {
+  float: right;
+  width: 29%;
+}
+.ybc-testimonial-testimonials .title_block {
+  border-bottom: 2px solid #F3F3F3;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+.ybc-testimonial-testimonials .ybc-testimonial-ul li img {
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+}
+.ybc-testimonial-li {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.testimonial-rating-block {
+  float: left;
+  padding: 11px 0 8px;
+  text-align: center;
+  width: 100%;
+}
+.ybc_testimonial_review {
+  float: none;
+  margin: 0 auto;
+  width: 76px;
+}
+.testimonials-customer {
+  float: left;
+  text-align: center;
+  width: 100%;
+  font-size: 13px;
+}
+.testimonials-comment:before {
+  content: "\'\'";
+  font-weight: bold;
+  margin-right: 3px;
+}
+.testimonials-comment:after {
+  content: "\'\'";
+  font-weight: bold;
+  margin-left: 3px;
+}
+#index .view_all, #index .write_testimonial {
+  display: none;
+}
+.ybc-testimonial-testimonials .title_block:after {
+  display: none;
+}
+.ybc-testimonial-wrapper-testimonials .ybc-testimonial-list > li {
+  float: left;
+  padding: 0 15px;
+  text-align: center;
+  width: 100%;
+}
+.ybc-testimonial-wrapper-page .ybc_testimonial_review {
+  width: 126px;
+}
+.rate_star{
+    float: left;
+    margin-right: 6px;
+}
+.ybc-testimonial-list {
+  clear: left;
+}
+.cmt_testimonial {
+  display: inline-block;
+  float: left;
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  text-decoration: none;
+}
+.cmt_testimonial:before {
+  content: "\f040"; 
+}
+.cmt_testimonial:before {
+  border-radius: 50px 50px 50px 50px;
+  color: #929292;
+  display: inline-block;
+  font-family: "FontAwesome";
+  font-size: 15px;
+  font-weight: normal;
+  height: 25px;
+  line-height: 20px;
+  margin-right: 10px;
+  text-align: center;
+  width: 15px;
+}
+.testimonial-form-row {
+  clear: left;
+  float: left;
+  margin-top: 15px;
+  min-width: 300px;
+  width: 50%;
+}
+.ybc_testimonial_success {
+  float: left;
+  min-width: 50%;
+  width: 100%;
+}
+.testimonial-form-capcha-wrapper {
+  float: left;
+}
+#tm_security_code {
+  margin-top: 5px;
+  width: 100px;
+}
+.testimonial-form-row .button {
+  border: medium none;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+.testimonial-form-row > label {
+  float: left;
+  margin-right: 10px;
+}
+#tm_comment_textarea {
+  height: 200px;
+}
+.testimonials-comment {
+  float: left;
+  font-style: italic;
+  padding: 0 10px;
+  width: 100%;
+}
+.ybc-testimonial-wrapper-page .testimonials-comment {
+  float: none;
+  font-style: italic;
+  padding: 0 10px;
+  width: auto;
+}
+.ybc-testimonial-wrapper-page .testimonials-avatar {
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.ybc-testimonial-wrapper-page .testimonial-rating-block {
+  float: none;
+  width: auto;
+}
+.ybc-testimonial-wrapper-testimonials.ybc-testimonial-wrapper-page .ybc-testimonial-list > li {
+  float: left;
+  padding: 0 15px;
+  text-align: left;
+  width: 100%;
+}
+.ybc-testimonial-wrapper-page .ybc_testimonial_review{
+    float: left;
+}
+.ybc-testimonial-wrapper-page .testimonials-customer {
+  float: none;
+  text-align: left;
+}
+#tm-randcode-update:before {
+  content: "\f021";
+  font-family: FontAwesome;
+  margin: 0 5px;
+}
+#tm-randcode-update {
+  margin-left: 10px;
+  width: 30px;
+  cursor: pointer;
+}
+@media (max-width: 767px){
+    .ybc-testimonial-testimonials {
+      float: left;
+      width: 100%;
+    }
+}
+@media (max-width: 479px){
+    .ybc-testimonial-wrapper-page .testimonial-rating-block {
+      float: left;
+      margin: 0 auto;
+      padding: 5px 0;
+      width: 100%;
+    }
+    .ybc-testimonial-wrapper-page .testimonials-avatar {
+      float: none;
+      margin-bottom: 0;
+      margin-right: auto;
+    }.ybc-testimonial-wrapper-page .testimonials-comment {
+      float: left;
+      padding: 0 10px;
+      width: 100%;
+    }
+    .ybc-testimonial-wrapper-page .testimonials-customer {
+      float: left;
+      text-align: center;
+      width: 100%;
+    }
+    .ybc-testimonial-wrapper-page .ybc_testimonial_review {
+      float: none;
+    }
+    .ybc-testimonial-wrapper-testimonials.ybc-testimonial-wrapper-page .ybc-testimonial-list > li {
+      margin-bottom: 20px;
+      padding: 0 15px;
+      text-align: center;
+      font-size: 13px;
+    }
+}
+/*responsive bxslider on homepage*/

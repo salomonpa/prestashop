@@ -1,0 +1,38 @@
+.header_user_info {
+  float: right;
+  position: relative;
+}
+.header_user_info a {
+  color: #333333;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font-size: 13px;
+  line-height: 18px;
+  padding: 8px 15px 10px 6px;
+}
+    @media (max-width: 479px) {
+      .header_user_info a {
+        font-size: 11px;
+          padding: 9px 10px 10px 6px;
+        } }
+    .header_user_info a:hover, .header_user_info a.active {
+      color: #4aaaa5; }
+.header_user_info:after {
+  color: #333333;
+  content: " ";
+  float: right;
+  height: 80%;
+  position: absolute;
+  right: 0;
+  top: 10%;
+  width: 1px;
+}
+.header_user_info.logged a {
+        float: left;
+    }
+#use_info_user_link_wrapper > span {
+  float: left;
+  line-height: 33px;
+  margin-right: 0;
+}

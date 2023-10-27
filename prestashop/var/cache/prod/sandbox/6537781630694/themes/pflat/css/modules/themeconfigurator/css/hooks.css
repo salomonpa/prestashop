@@ -1,0 +1,217 @@
+/* Home hook CSS */
+#htmlcontent_home ul {
+  margin: 0 -10px 30px;
+}
+#htmlcontent_home {
+  float: left;
+  width: 100%;
+}
+#htmlcontent_home ul li {
+  padding: 0 10px 10px;
+}
+    @media (max-width: 479px) {
+      #htmlcontent_home ul li {
+        width: 100%; } }
+    #htmlcontent_home ul li img {
+      max-width: 100%;
+      height: auto; }
+      @media (max-width: 479px) {
+        #htmlcontent_home ul li img {
+          min-width: 100%; } }
+    #htmlcontent_home ul li.htmlcontent-item-5 {
+      width: 66.6667%; }
+@media (max-width: 479px) {
+    #htmlcontent_home ul li.htmlcontent-item-5 {
+      width: 100%; 
+    }     
+    #htmlcontent_top .htmlcontent-top-wrap ul li {
+      width: 100%;
+    }
+    
+}
+
+/* Top hook CSS */
+ #htmlcontent_top {
+  float: right;
+  width: 100%;
+}
+  @media (max-width: 767px) {
+    .htmlcontent-item-link-content .item-title {
+      font-size: 13px;
+      margin-top: 7px;
+    }
+    #htmlcontent_top {
+      width: 100%;
+      max-width: 100%;
+      padding-left: 0;
+      padding-top: 0px; }
+      .htmlcontent-itemcontent .item-html {
+      font-size: 12px;
+      line-height: 16px;
+      padding-bottom: 10px;
+    }
+    #htmlcontent-item-link-wrap .htmlcontent-item-link-content {
+      display: block;
+      float: left;
+      padding: 0;
+      text-align: center;
+      vertical-align: middle;
+      width: 100%;
+    }
+    #htmlcontent-item-link-wrap .htmlcontent-item-link-wrap {
+      display: block;
+    }
+    .htmlcontent-top .htmlcontent-itemcontent #htmlcontent-item-link-wrap {
+      background: none repeat scroll 0 0 rgba(74, 170, 165, 0)!important;
+      color: #333333;
+      height: auto;
+      opacity: 1;
+      overflow: hidden;
+      position: static;
+      top: 0;
+      transition: opacity 0.5s ease 0s, background-color 0.5s ease 0s;
+      width: 100%;
+    }
+    .data-hover:before {
+      display: none;
+    }
+ }
+ @media (min-width: 768px) and (max-width: 991px){
+    .item-title {
+      line-height: 15px;
+      margin-top: 0;
+    }
+    .item-title > span {
+      font-size: 75%;
+      line-height: 20px;
+    }
+    .item-html {
+      font-size: 80%;
+      line-height: 15px;
+    }
+ }
+
+    #htmlcontent_top ul li {
+      float: left;
+      margin-bottom: 10px;
+      padding-left: 25px;
+      padding-right: 25px;
+      position: relative;
+      width: 33.3%;
+    }
+@media (max-width: 767px) {
+  #htmlcontent_top ul li img{
+    height:auto; 
+  }
+  #htmlcontent_top ul {
+      margin: 0 -15px; 
+  }
+  #htmlcontent_top ul li {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+}
+
+    #htmlcontent_top ul li img {
+      max-width: 100%; height: auto;
+ }
+.htmlcontent-top-wrap {
+  float: left;
+  width: 100%;
+}
+.htmlcontent-top {
+  margin-bottom: 0;
+  margin-left: -25px;
+  margin-right: -25px;
+  padding: 0;
+}
+#htmlcontent-top .item-link {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+@media (min-width: 768px){
+.htmlcontent-top #htmlcontent-item-link-wrap, .htmlcontent-home #htmlcontent-item-link-wrap {
+  background: none repeat scroll 0 0 rgba(74, 170, 165, 0.2);
+  color: white;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  transition: opacity 0.5s ease 0s, background-color 0.5s ease 0s;
+  width: 0;
+}
+.htmlcontent-itemcontent:hover #htmlcontent-item-link-wrap {
+  height: 100%;
+  opacity: 1;
+  width: 100%;
+}
+
+.htmlcontent-item-link-wrap {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.htmlcontent-item-link-content {
+  display: table-cell;
+  height: 100%;
+  padding: 0 10%;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+}
+.htmlcontent-item-link-wrap-wrap .item-title {
+  float: left;
+  margin-top: 0;
+  width: 100%;
+  text-align: center;
+}
+.htmlcontent-item-link-wrap .item-title span {
+  border-bottom: 1px solid #FF4C65;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.item-link {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+.htmlcontent-itemcontent{
+    float: left;
+    width: 100%;
+    position: relative;
+}
+/*.data-hover:before {
+  background: none repeat scroll 0 0 rgba(74, 170, 165, 0.2);
+  border-bottom: 1px solid transparent;
+  bottom: 0;
+  color: white;
+  content: attr(data-hover);
+  font-weight: bold;
+  left: 0;
+  padding: 5px 20px;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+}*/
+.data-hover:after {
+  /*border-bottom: 1px solid #E35E55;
+  bottom: 0;
+  color: white;
+  content: attr(data-hover);
+  left: 0;
+  margin: 5px 20px;
+  position: absolute;*/
+}
+.htmlcontent-top .htmlcontent-itemcontent:hover .data-hover:after,
+.htmlcontent-top .htmlcontent-itemcontent:hover .data-hover:before{
+    opacity: 0;
+
+    transition: opacity 0.3s;                
+}  
+
+/* Left hook CSS */
+/* Right hook CSS */
+/* Footer hook CSS */

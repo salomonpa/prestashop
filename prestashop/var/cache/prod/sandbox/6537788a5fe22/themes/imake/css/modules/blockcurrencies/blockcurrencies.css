@@ -1,0 +1,106 @@
+#currencies-block-top {
+  float: right;
+  position: relative; 
+}
+
+#currencies-block-top span.firstWord {
+    display: none; 
+}
+#currencies-block-top div.current {
+  color: #a6a6a6;
+  cursor: pointer;
+  float: left;
+  line-height: 20px;
+  padding: 10px 0px 10px 0;
+  text-transform: uppercase;
+}
+#currencies-block-top .cur-label {
+  float: left;
+  line-height: 28px;
+  padding: 8px 10px 10px 0;
+  text-transform: uppercase;
+}
+
+#currencies-block-top ul li {
+  border-bottom: 1px solid #dbdbdb;
+  color: #fff;
+  font-size: 13px;
+  line-height: 35px;
+}
+#currencies-block-top ul li:last-child {
+  border-bottom: none;
+}
+#currencies-block-top ul li a,
+#currencies-block-top ul li > span {
+    padding: 0 10px 0 12px;
+    display: block;
+    color: #666; 
+}
+#currencies-block-top ul li.selected span, 
+#currencies-block-top ul li.selected a, 
+#currencies-block-top ul li:hover a {
+    color: #333;
+}
+#currencies-block-top div.current::after {
+  content: "\f107";
+  font-family: FontAwesome;
+  font-size: 16px;
+    margin-left: 0;
+  color: #a6a6a6;
+}
+#currencies-block-top ul {
+  background: #fff none repeat scroll 0 0;
+  border-top: 2px solid #eed9b5;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 37px;
+  width: 140px;
+  z-index: 2;
+}
+#currencies-block-top ul {
+  border-bottom: 1px solid #dbdbdb !important;
+  border-left: 1px solid #dbdbdb !important;
+  border-right: 1px solid #dbdbdb !important;
+}
+@media (min-width: 768px) and (max-width: 991px){
+    #currencies-block-top div.current::after {
+      margin-left: 5px;
+    }
+}
+@media (max-width: 767px) {
+    #currencies-block-top .cur-label {
+      display: none;
+    } 
+    #currencies-block-top ul {
+      right: 0;
+      left: auto;
+      width: 120px;
+    }
+}
+@media (max-width: 479px) {
+  #currencies-block-top div.current {
+      font-size: 11px;
+      line-height: 30px;
+      padding: 0 5px;
+      text-align: left;
+    }
+    #currencies-block-top {
+      margin-right: 10px; 
+    } 
+    #currencies-block-top {
+      float: right;
+      margin: 4px 0 0;
+      position: relative;
+    }
+    #currencies-block-top ul {
+      top: 100%;
+    }
+    #currencies-block-top ul li a, #currencies-block-top ul li > span {
+      line-height: 30px;
+    }
+    #currencies-block-top div.current::after {
+      margin-left: 5px;
+    }
+}
+/*# sourceMappingURL=blockcurrencies.css.map */

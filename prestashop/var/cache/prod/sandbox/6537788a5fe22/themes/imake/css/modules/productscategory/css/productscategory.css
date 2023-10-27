@@ -1,0 +1,18 @@
+
+#productscategory_list .product-name a {
+    line-height: 18px;
+    color: #333333;
+}
+#productscategory_list .exclusive span {
+  font-size: 13px;
+  line-height: 40px;
+  padding: 0;
+  text-decoration: none;
+}
+#productscategory_list .exclusive span:focus, #productscategory_list .exclusive span:active {
+    text-decoration: none; 
+}
+#productscategory_list {
+  padding-top: 10px;
+}
+/*# sourceMappingURL=productscategory.css.map */

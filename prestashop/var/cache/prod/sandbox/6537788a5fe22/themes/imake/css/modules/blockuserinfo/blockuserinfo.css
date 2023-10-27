@@ -1,0 +1,44 @@
+.header_user_info {
+  float: right;
+}
+.header_user_info a {
+  color: #424242;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 10px;
+  text-transform: none;
+}
+/*.header_user_info a::before {
+  background-color: #999;
+  border-radius: 1px;
+  content: "";
+  display: inline-block;
+  height: 6px;
+  margin-right: 4px;
+  top: -5px;
+  vertical-align: 2px;
+  width: 6px;
+}*/
+@media (max-width: 767px){
+    .header_user_info a.account {
+      margin-right: 10px;
+    }
+}
+@media (max-width: 479px) {
+  .header_user_info a {
+      float: left;
+      font-size: 11px;
+      padding: 0;
+      white-space: nowrap;
+    } 
+    .header_user_info {
+      margin-top: 4px;
+    }
+  .header_user_info a::before{
+    display: none;
+  }
+}
+
+
+/*# sourceMappingURL=blockuserinfo.css.map */

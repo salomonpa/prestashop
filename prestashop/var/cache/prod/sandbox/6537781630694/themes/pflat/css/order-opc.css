@@ -1,0 +1,113 @@
+/********************************************************
+			One-Page Checkout Styles
+********************************************************/
+#order-opc {
+  line-height: 20px; }
+  #order-opc .box {
+    padding-bottom: 20px; }
+  #order-opc .cart_navigation {
+    margin-bottom: 53px; }
+#order-opc .page-heading.step-num {
+  border: medium none;
+  float: left;
+  font-size: 130%;
+  margin-bottom: 15px;
+  overflow: visible;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  position: relative;
+  width: 100%;
+}
+    overflow: visible; }
+    #order-opc .page-heading.step-num span {
+      font-weight: bold;
+      font-size: 42px;
+      line-height: 51px;
+      font-style: italic;
+      color: #333333;
+      position: absolute;
+      left: 10px;
+      top: -14px; }
+  #order-opc .form-group {
+    margin-bottom: 2px; }
+    #order-opc .form-group .form-control {
+      max-width: 271px; }
+  #order-opc .lost_password {
+    display: inline-block;
+    text-decoration: underline;
+    margin: 5px 0 14px; }
+    #order-opc .lost_password:hover {
+      text-decoration: none; }
+  #order-opc .title_block {
+    font-weight: bold;
+    color: #333333;
+    padding: 3px 0 6px; }
+  #order-opc .opc-button {
+    padding: 11px 0 0 0; }
+  #order-opc ul.bullet {
+    line-height: 22px;
+    margin-bottom: 5px; }
+  #order-opc .date-select {
+    padding-bottom: 10px; }
+  #order-opc .opc-add-save {
+    border-top: 1px solid #d6d4d4;
+    margin-top: 20px;
+    padding-top: 20px; }
+  #order-opc #message {
+    margin-bottom: 35px; }
+#order-opc #opc_payment_methods {
+  float: left;
+  margin-bottom: 30px;
+  width: 100%;
+}
+    #order-opc #opc_payment_methods p.warning {
+      color: #F13340;
+      font-weight: 700; }
+  #order-opc #opc_account {
+    margin-bottom: 30px; }
+  #order-opc .address_delivery.select {
+    margin-bottom: 15px; }
+  #order-opc #address_invoice_form.form-group {
+    margin-bottom: 30px; }
+
+#new_account_form .id_state,
+#new_account_form .dni,
+#new_account_form .postcode {
+  display: none; }
+#opc_new_account {
+  float: left;
+  width: 100%;
+}
+#order-opc #login_form, #order-opc #carrier_area, #order-opc #new_account_form, #order-opc #opc_delivery_methods {
+  float: left;
+  width: 100%;
+}
+.page-heading.step-num > span.number-step {
+  background: none repeat scroll 0 0 #FF4C65;
+  border: medium none;
+  border-radius: 20px 20px 20px 20px;
+  color: white;
+  float: left;
+  font-size: 25px;
+  height: 30px;
+  line-height: 27px;
+  margin-right: 10px;
+  margin-top: -4px;
+  text-align: center;
+  width: 30px;
+}
+.page-heading.step-num > span{
+    float: left;
+}
+#order-opc p.payment_module {
+  float: left;
+  margin-bottom: 10px;
+  width: 100%;
+}
+#order-opc .page-heading span.heading-counter {
+  margin-bottom: 0;
+}
+#order-opc h1.page-heading {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,161 @@
+.ynp-loading-div {
+  background-color: rgba(255, 255, 255, 0.5);
+  background-image: url("opacity-50.png");
+  background-repeat: repeat;
+  display: none;
+  float: left;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+.ynp-loading {
+  margin-top: 122px;
+}
+.ybc-newsletter-popup {
+  background-image: url("opacity-50.png");
+  background-color: rgba(255, 255, 255, 0.5);
+  background-repeat: repeat;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+}
+.ynp-div-l1 {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+.ynp-div-l2 {
+  display: table-cell;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+.ynp-div-l3 {
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 460px;
+  position: relative;
+  text-align: left;
+  width: 96%;
+}
+.ynp-form {
+  background-color: white;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 0 12px 2px #333333;
+  float: left;
+  height: 289px;
+  width: 100%;
+}
+.ynp-inner {
+  float: left;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.ynp-close {
+  background: none repeat scroll 0 0 #FF4C65;
+  cursor: pointer;
+  height: 20px;
+  overflow: hidden;
+  position: absolute !important;
+  right: 0;
+  top: 0;
+  width: 20px;
+  z-index: 99;
+}
+.ynp-close:before {
+  color: white;
+  content: "\f00d";
+  float: left;
+  font-family: FontAwesome;
+  height: 20px;
+  margin-right: 100px;
+  text-align: center;
+  width: 20px;
+}
+.ynp-inner-wrapper p {
+  clear: left;
+  font-size: 12px;
+  line-height: 20px;
+}
+.ynp-inner-wrapper {
+  float: right;
+  margin-top: 8%;
+  padding-right: 8%;
+  width: 55%;
+}
+.ynp-input-checkbox {
+  clear: left;
+  float: left;
+  margin-top: 10px;
+  width: 100%;
+}
+.ynp-input-checkbox label {
+  font-size: 12px;
+}
+.ynp-inner-wrapper > h2 {
+  border-bottom: 1px solid #333333;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.ynp-input-row > label {
+  display: none;
+}
+#ynp-email-input {
+  font-size: 12px;
+  height: 33px;
+  padding: 5px;
+  width: 100%;
+}
+.ynp-input-row {
+  position: relative;
+}
+#uniform-ynp-input-dont-show {
+  float: left;
+  margin-top: 5px;
+}
+#ynp-submit {
+  border: 0 none;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  height: 33px;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+  top: 0;
+}
+.ybc-newsletter-popup .alert-danger {
+  float: left;
+  font-size: 12px;
+  padding: 5px 10px;
+  width: 100%;
+}
+.ybc-newsletter-popup .alert-success {
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 0 12px 2px #333333;
+  margin-bottom: 0;
+}
+@media (max-width: 767px){
+    .ynp-mobile-hide{
+        display: none;
+    }
+}
+@media (max-width: 479px){
+    .ynp-inner-wrapper {
+      float: right;
+      margin-top: 8%;
+      padding-right: 8%;
+      width: 78%;
+    }
+}

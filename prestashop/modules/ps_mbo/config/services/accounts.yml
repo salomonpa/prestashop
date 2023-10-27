@@ -1,0 +1,8 @@
+services:
+  _defaults:
+    public: true
+
+  mbo.accounts.data_provider:
+    class: PrestaShop\Module\Mbo\Accounts\Provider\AccountsDataProvider
+    arguments:
+      - "5.2.5"
